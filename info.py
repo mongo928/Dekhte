@@ -60,7 +60,7 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "7")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/HMmedia_Movie')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/HMmedia_movies_group')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/HMmedia_Movie')
 TUTORIAL = environ.get('TUTORIAL', 'https://youtube.com/shorts/YKtMxPdeRpI?feature=share')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
