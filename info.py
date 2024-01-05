@@ -23,7 +23,7 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 STREAM_CAP = environ.get("STREAM_CAP", f"{script.STREAM_CAP}")
 
-PICS = (environ.get('PICS', 'https://telegra.ph/file/f147e38021227227bbc78.jpg')).split()
+PICS = (environ.get('PICS', '0')).split()
 NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/f147e38021227227bbc78.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/f147e38021227227bbc78.jpg")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/f147e38021227227bbc78.jpg")
@@ -50,7 +50,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "TESTBOT")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
-VERIFY = bool(environ.get('VERIFY', True))
+VERIFY = bool(environ.get('VERIFY', False))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'tnshort.net')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'f8dc2c7c96b1e397c00bcf9118a9faa0e4dba966')
 SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', 'tnshort.net')
