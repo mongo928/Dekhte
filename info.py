@@ -25,7 +25,7 @@ STREAM_CAP = environ.get("STREAM_CAP", f"{script.STREAM_CAP}")
 
 PICS = (environ.get('PICS', 'https://telegra.ph/file/f147e38021227227bbc78.jpg')).split()
 NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/f147e38021227227bbc78.jpg")
-MELCOW_VID = environ.get("MELCOW_VID", "0")
+MELCOW_VID = environ.get("MELCOW_VID", "https://te.legra.ph/file/ad6b62b435813490e8d44.jpg")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/f147e38021227227bbc78.jpg")
 
 # Admins, Channels & Users
