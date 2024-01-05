@@ -79,7 +79,7 @@ async def pm_text(bot, message):
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
     if user_id in ADMINS: return # ignore admins
     await message.reply_text(
-         text=f"<b>Type & Get - t.me/Happy_Hour_Friends</b>"
+         text=f"<b>Type & Get - t.me/HMmedia_movies_group</b>"
     )
     await bot.send_message(
         chat_id=LOG_CHANNEL,
@@ -909,7 +909,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     )
                 else:
                     await query.answer(f"Hᴇʏ {query.from_user.first_name}, Tʜɪs Is Nᴏᴛ Yᴏᴜʀ Mᴏᴠɪᴇ Rᴇǫᴜᴇsᴛ. Rᴇǫᴜᴇsᴛ Yᴏᴜʀ's !", show_alert=True)
-                await query.answer('आपको मूवी पर्सनलचैट में भेजा है...✅\n\nFile Sent Successfully ✅\n\n𝗧𝗵𝗲 𝗛𝗮𝗽𝗽𝘆 𝗛𝗼𝘂𝗿', show_alert=True)
+                await query.answer('आपको मूवी पर्सनलचैट में भेजा है...✅\n\nFile Sent Successfully ✅\n\n𝐇𝐌𝐦𝐞𝐝𝐢𝐚 𝐦𝐨𝐯𝐢𝐞𝐬', show_alert=True)
         except UserIsBlocked:
             await query.answer('Uɴʙʟᴏᴄᴋ ᴛʜᴇ ʙᴏᴛ ᴍᴀʜɴ !', show_alert=True)
         except PeerIdInvalid:
