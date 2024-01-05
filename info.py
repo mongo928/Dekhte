@@ -24,8 +24,8 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 STREAM_CAP = environ.get("STREAM_CAP", f"{script.STREAM_CAP}")
 
 PICS = (environ.get('PICS', 'https://telegra.ph/file/f147e38021227227bbc78.jpg')).split()
-NOR_IMG = environ.get("NOR_IMG", "0")
-MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/f147e38021227227bbc78.jpg")
+NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/f147e38021227227bbc78.jpg")
+MELCOW_VID = environ.get("MELCOW_VID", "0")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/f147e38021227227bbc78.jpg")
 
 # Admins, Channels & Users
