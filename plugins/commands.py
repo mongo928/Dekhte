@@ -315,7 +315,7 @@ async def start(client, message):
                     InlineKeyboardButton("Hᴏᴡ Tᴏ Vᴇʀɪғʏ", url='https://youtube.com/shorts/YKtMxPdeRpI?feature=share')
                 ]]
                 await message.reply_text(
-                    text="<b>पहले 15 सेकंड का वेरिफिकेशन जरूरी हे !\n\nफिर अनलिमिटेड मूवी ले सकते है । ✅</b>",
+                    text="<b>पहले 60 सेकंड का वेरिफिकेशन जरूरी हे !\n\nफिर अनलिमिटेड मूवी ले सकते है । ✅</b>",
                     protect_content=True,
                     reply_markup=InlineKeyboardMarkup(btn)
                 )
@@ -426,7 +426,7 @@ async def start(client, message):
             InlineKeyboardButton("Hᴏᴡ Tᴏ Vᴇʀɪғʏ", url='https://youtube.com/shorts/YKtMxPdeRpI?feature=share')
         ]]
         await message.reply_text(
-            text="<b>पहले 15 सेकंड का वेरिफिकेशन जरूरी हे !\n\nफिर अनलिमिटेड मूवी ले सकते है । ✅</b>",
+            text="<b>पहले 60 सेकंड का वेरिफिकेशन जरूरी हे !\n\nफिर अनलिमिटेड मूवी ले सकते है । ✅</b>",
             protect_content=True,
             reply_markup=InlineKeyboardMarkup(btn)
         )
