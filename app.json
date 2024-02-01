@@ -20,27 +20,27 @@
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
-"value":"6624330389:AAF2SF3vWP4VztPPdZAF8o6yQIOov8QlnpY",
+"value":"6350375829:AAGwzt5v9DUyUK7_3EJkoSj7iucF3juobu8",
             "required": true
         },
         "API_ID": {
             "description": "Get this value from https://my.telegram.org",
-"value":"24579842",
+"value":"12512870",
             "required": true
         },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
-"value":"ec6105bf1a02c98f837300546dc341d1",
+"value":"01e4639ae903f5d4a7b0876e5a3ea0a1",
             "required": true
         },
         "CHANNELS": {
             "description": "Username or ID of channel or group. Separate multiple IDs by space.",
-"value":"-1001867538832",
+"value":"-1001567704408",
             "required": false
         },
         "ADMINS": {
             "description": "Username or ID of Admin. Separate multiple Admins by space.",
-"value":"1991522624",
+"value":"1320867884 1197918807",
             "required": true
         },
         "PICS": {
@@ -49,7 +49,7 @@
         },
         "LOG_CHANNEL": {
             "description": "Bot Logs,Give a channel id with -100xxxxxxx",
-"value":"-1001939252420",
+"value":"-1001424329361",
             "required": true
         },
         "AUTH_USERS": {
@@ -58,7 +58,7 @@
         },
         "AUTH_CHANNEL": {
             "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
-            "value":"-1001752626076",
+            "value":"-1001648653483",
             "required": false
         },
         "DATABASE_URI": {
